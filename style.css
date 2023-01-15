@@ -1,4 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+}
 body {
+
     background-color: rgba(53, 17, 255, 0.122);
     color: black;
 
@@ -15,8 +21,21 @@ font: normal 16px 'Roboto',sans-seri;
     margin: 0;
     font-style: italic;
     font-weight: bold;
+}
 
+.info p:hover{
+color: red;
+cursor: pointer;
 }
 .main-title {
     
+}
+.purt {
+    background-color: yellow;
+    margin: 20px 10px 20px 10px;
+    padding: 50px;
+}
+
+.btn{
+    padding: 200px;
 }
